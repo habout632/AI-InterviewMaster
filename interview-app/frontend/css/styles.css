@@ -1,0 +1,112 @@
+.hidden {
+    display: none;
+}
+
+#timer {
+    position: fixed;
+    top: 60px;
+    right: 30px;
+    background-color: rgba(240, 242, 246, 0.9);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.warning {
+    color: #ff4b4b !important;
+}
+
+.question-area {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.feedback-area {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+}
+
+.summary-area {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f3e5f5;
+    border-radius: 8px;
+}
+
+.progress {
+    height: 10px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.type-percentage {
+    padding: 10px;
+    background-color: #f1f3f4;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.bi-question-circle-fill {
+    cursor: help;
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+.tooltip {
+    font-size: 0.9em;
+    max-width: 250px;
+}
+
+.sidebar {
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width: 768px) {
+    #timer {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .sidebar {
+        height: auto;
+        position: static;
+    }
+}
+
+
+/* 语音按钮样式 */
+#voiceInputBtn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 50px;
+}
+
+/* 录音状态动画 */
+#recordingStatus i {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
