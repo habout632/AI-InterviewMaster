@@ -7,12 +7,16 @@
 
 [English](#english) | [中文](#chinese)
 
+![sample.png](./docs/sample.png)
+
 ---
 
 <a id="chinese"></a>
 ## 🇨🇳 中文介绍
 
 AI-InterviewMaster 是一个基于AI技术的面试模拟平台，专为软件开发者、IT专业人士和计算机科学学生设计。它能够模拟真实的技术面试场景，提供即时反馈，帮助用户准备技术面试。
+
+
 
 ### ✨ 主要功能
 
