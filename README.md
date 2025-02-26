@@ -1,7 +1,7 @@
 # AI-InterviewMaster
 
 <div align="center">
-  <img src="https://via.placeholder.com/200x200?text=AI-Interview" alt="AI-InterviewMaster Logo" width="180"/>
+  <img src="./docs/logo.png" alt="AI-InterviewMaster Logo" width="180"/>
   <p><strong>AI驱动的技术面试模拟平台 | AI-powered Technical Interview Simulator</strong></p>
 </div>
 
